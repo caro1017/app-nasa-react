@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  background-image: url(./assets/img/Fondo_Desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para tabletas */
+  body {
+    background-image: url(./assets/img/Fondo_Tablet.png);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Estilos específicos para dispositivos móviles */
+  body {
+    background-image: url(./assets/img/Fondo_Movil.png);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
