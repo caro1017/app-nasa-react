@@ -95,7 +95,7 @@ export const Date = () => {
         </div>
 
         {error && (
-          <Alert className="styledAlert " severity="error" variant="outlined">
+          <Alert className="styledAlert " severity="error" variant="filled">
             {error}
           </Alert>
         )}
