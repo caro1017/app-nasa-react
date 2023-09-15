@@ -88,7 +88,6 @@ export const Date = () => {
             <Button
               className="styledSearchButton"
               onClick={queryNasa}
-              variant="contained"
             >
               <Search />
             </Button>
